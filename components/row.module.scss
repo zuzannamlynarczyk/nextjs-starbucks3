@@ -1,0 +1,23 @@
+.row {
+    //background-color: purple;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -.5rem;
+    &.justify-content-center {
+        justify-content: center;
+        text-align: left;
+    }
+    &.justify-content-space-between{
+        justify-content: space-between;
+    }
+    &.margin {
+        margin: 2rem; 
+    }
+    &.font-size {
+        font-size: 16pt;
+    }
+    &.border {
+        border: 1pt solid black;
+    }
+
+}

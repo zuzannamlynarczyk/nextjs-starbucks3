@@ -1,0 +1,12 @@
+.btnui {
+    width: 3rem;
+    height: 3rem;
+    border: 0;
+    background-color: transparent;
+    margin-top: 1.7rem;
+    &.close {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+}

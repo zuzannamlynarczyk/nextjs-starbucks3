@@ -1,0 +1,33 @@
+@use '../styles/abstracts/vars';
+
+.btn {
+    font-family: Arial;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: pink;
+    padding: 1rem 1.5rem;
+    margin-top: .5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .5s;
+    text-align: center;
+    &.primary {
+        background-color: vars.$color_green;
+        color: white;
+        border: 1px solid vars.$color_green;
+        &:hover, &:focus {
+            background-color: vars.$color_black;
+        }
+    }
+    &.secondary {
+        background-color: vars.$color_white;
+        color: vars.$color_green;
+        border: 1px solid vars.$color_green;
+        &:hover, &:focus {
+            background-color: vars.$color_green;
+            color: vars.$color_white;
+        }
+    }
+}
